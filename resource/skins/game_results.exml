@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="game_resultsSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16ad85b97f5" ></w:Config>
+	<e:Image source="零陵界-夜_jpg" left="0" top="0"/>
+	<e:Label text="游戏结果" x="793" y="102" anchorOffsetX="0" width="334" anchorOffsetY="0" height="84" size="80"/>
+	<e:Label id="lab_roomID" text="房间ID：" x="815" y="212" anchorOffsetX="0" width="350" anchorOffsetY="0" height="32"/>
+	<e:Image source="owner_png" x="542" y="314" anchorOffsetX="0" width="154" anchorOffsetY="0" height="68"/>
+	<e:Label id="lab_userID1" text="userID1" x="730" y="314" anchorOffsetX="0" width="292" anchorOffsetY="0" height="72" size="60"/>
+	<e:Label id="lab_userID2" text="userID1" x="730" y="540" anchorOffsetX="0" width="292" anchorOffsetY="0" height="72" size="60"/>
+	<e:Label id="lab_score1" text="STABLE" x="1127" y="314" anchorOffsetX="0" width="268" anchorOffsetY="0" height="58" size="60"/>
+	<e:Label id="lab_score2" text="STABLE" x="1127" y="540" anchorOffsetX="0" width="268" anchorOffsetY="0" height="58" size="60"/>
+	<e:Rect width="1030" height="10" x="475" y="420" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Rect width="1030" height="10" x="475" y="648" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Button id="btn_leave" label="离开游戏" x="812.5" y="850" anchorOffsetX="0" width="419" anchorOffsetY="0" height="160"/>
+</e:Skin>

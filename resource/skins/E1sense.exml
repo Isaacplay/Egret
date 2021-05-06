@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="E1senseSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16a9c06527c" ></w:Config>
+	<e:Image source="E_back_jpg" left="0" top="0"/>
+	<e:Image source="E_down_png" left="0" bottom="0" alpha="1"/>
+	<e:Button id="over" label="Button" x="1706" y="970" anchorOffsetX="0" width="184" anchorOffsetY="0" height="86" skinName="bat_over"/>
+	<e:Button id="escape" label="Button" x="1706" y="841" anchorOffsetX="0" width="184" anchorOffsetY="0" height="86" skinName="bat_escape"/>
+	<e:Image id="boss" source="E1_boss_png" x="484" y="-168"/>
+	<e:Image source="bat_4_png" x="1432.03" y="771" visible="false"/>
+	<e:Image source="bat_3_png" x="1706" y="771"/>
+	<e:Label id="cost" text="Label" x="1766" y="791" anchorOffsetX="0" width="182" anchorOffsetY="0" height="50"/>
+	<e:Label id="play_hp" text="Label" x="26" y="703.5" anchorOffsetX="0" width="118" anchorOffsetY="0" height="42"/>
+	<e:Label id="boss_hp" text="Label" x="1739" y="707" anchorOffsetX="0" width="118" anchorOffsetY="0" height="42"/>
+	<e:Image id="hp_play" source="hp1_png" x="141" y="704"/>
+	<e:Image id="hp_boss" source="hp2_png" x="1226" y="704"/>
+</e:Skin>

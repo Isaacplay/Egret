@@ -1,0 +1,51 @@
+{
+
+"lls" : {
+        "ATK":13695,
+        "HP":14598,
+        "skill1":0.9,
+        "skill1cost":1,
+        "skill2": 3.8,
+        "skill2cost":9
+    },
+
+ "zhende" :{
+      "ATK":18000,
+      "HP":12568,
+      "skill1":1,
+      "skill1cost":1,
+      "skill2":2 ,
+      "skill2cost":4
+
+ },
+ "eqd":{
+     "ATK":12050,
+      "HP":15568,
+      "skill1":1,
+      "skill2":1.5,
+      "skill1cost":1,
+      "skill2cost":2
+     
+ },
+ "bb":{
+     "ATK":14050,
+      "HP":15468,
+      "skill1":0.8,
+      "skill1cost":1,
+      "skill2": 1.3,
+      "skill2cost":3
+
+ },
+
+  "yz":{
+     "ATK":18888,
+      "HP":28888,
+      "skill1":1.5,
+      "skill2":4.0,
+      "skill1cost":1,
+      "skill2cost":2
+     
+ }
+
+
+}

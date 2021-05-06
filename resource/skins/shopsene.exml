@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="shopseneSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16a581a0bc2" ></w:Config>
+	<e:Image source="back_shop_jpg" left="0" top="0" locked="true"/>
+	<e:Button id="tc2" label="Button" anchorOffsetY="0" height="50" anchorOffsetX="0" width="50" right="0" top="0" skinName="tc2" locked="true"/>
+	<e:Group width="1472" height="910" x="376" y="110" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="shop_title_png" y="51" left="66" locked="true"/>
+		<e:Scroller id="scr_shop" width="1410" height="466" x="42" y="402" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="on" scrollPolicyV="off">
+			<e:List id="lis_shop" itemRendererSkinName="gouma">
+				<e:layout>
+					<e:HorizontalLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Image source="shop_left_back_png" x="91.5" y="254" alpha="0.4"/>
+	<e:Button id="shop_res" label="Button" x="115" y="743" anchorOffsetX="0" width="194" anchorOffsetY="0" height="72" skinName="reset" visible="false"/>
+	<e:Button id="shop_quanxuan" label="Button" x="115" y="643" anchorOffsetX="0" width="194" anchorOffsetY="0" height="72" skinName="quanxuan" visible="false"/>
+	<e:Button id="shop_gouma" label="Button" x="115" y="843" anchorOffsetX="0" width="194" anchorOffsetY="0" height="72" skinName="gouma"/>
+	<e:Image source="chiyou_png" x="115" y="286" alpha="0.7"/>
+	<e:Image source="xiaohao_png" x="115" y="417.5" alpha="0.7" visible="false"/>
+	<e:Label id="shop_money" text="Label" x="127" y="334" anchorOffsetX="0" width="169.33" anchorOffsetY="0" height="40"/>
+	<e:Label id="shop_need" text="Label" x="125" y="466" anchorOffsetX="0" width="171.33" anchorOffsetY="0" height="40.67" visible="false"/>
+</e:Skin>

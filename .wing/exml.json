@@ -1,0 +1,105 @@
+{
+    "16a4d52c311": {
+        "path": "..\\resource\\skins\\home.ts",
+        "class": "home",
+        "parentPath": ""
+    },
+    "16a53b863dc": {
+        "path": "..\\resource\\skins\\aboutsene.ts",
+        "class": "aboutsene",
+        "parentPath": ""
+    },
+    "16a581a0bc2": {
+        "path": "..\\resource\\skins\\shopsene.ts",
+        "class": "shopsene",
+        "parentPath": ""
+    },
+    "16a863a9501": {
+        "path": "..\\resource\\skins\\herosense.ts",
+        "class": "herosense",
+        "parentPath": ""
+    },
+    "16a9aad25eb": {
+        "path": "..\\resource\\skins\\battlesense.ts",
+        "class": "battlesense",
+        "parentPath": ""
+    },
+    "16a9c06527c": {
+        "path": "..\\resource\\skins\\E1sense.ts",
+        "class": "E1sense",
+        "parentPath": ""
+    },
+    "global": {
+        "globalAutoLayerMarkEnable": true
+    },
+    "16ad4613785": {
+        "path": "..\\resource\\skins\\battlechoose.ts",
+        "class": "battlechoose",
+        "parentPath": ""
+    },
+    "16ad4b7a651": {
+        "path": "..\\resource\\skins\\battle_login.ts",
+        "class": "battle_login",
+        "parentPath": ""
+    },
+    "16ad54ba950": {
+        "path": "..\\resource\\skins\\battle_lobby.ts",
+        "class": "battle_lobby",
+        "parentPath": ""
+    },
+    "16ad570a4f5": {
+        "path": "..\\resource\\skins\\skin_items\\bat_match.ts",
+        "class": "bat_match",
+        "parentPath": ""
+    },
+    "16ad85b97f5": {
+        "path": "..\\resource\\skins\\game_results.ts",
+        "class": "game_results",
+        "parentPath": ""
+    },
+    "16ad869cec4": {
+        "path": "..\\resource\\skins\\error_note.ts",
+        "class": "error_note",
+        "parentPath": ""
+    },
+    "16ad93de085": {
+        "path": "..\\resource\\skins\\RoomListUI.ts",
+        "class": "RoomListUI",
+        "parentPath": ""
+    },
+    "16ad947fc55": {
+        "path": "..\\resource\\skins\\skin_items\\RoomItem.ts",
+        "class": "RoomItem",
+        "parentPath": ""
+    },
+    "16ad955ba38": {
+        "path": "..\\resource\\skins\\MatchRoomID.ts",
+        "class": "MatchRoomID",
+        "parentPath": ""
+    },
+    "16ad95f9477": {
+        "path": "..\\resource\\skins\\MatchRoomID.ts",
+        "class": "MatchRoomID",
+        "parentPath": ""
+    },
+    "16ad96097f1": {
+        "path": "sense\\matchroom.ts",
+        "class": "matchroom",
+        "parentPath": ""
+    },
+    "16ade202fdb": {
+        "path": "..\\resource\\skins\\skin_items\\ReconnectUI.ts",
+        "class": "ReconnectUI",
+        "parentPath": ""
+    },
+    "16ae97d7218": {
+        "path": "..\\resource\\skins\\skin_items\\CKsense.ts",
+        "class": "CKsense",
+        "parentPath": ""
+    },
+    "16b02b4b0bd": {
+        "path": "..\\resource\\skins\\skin_items\\salesense.ts",
+        "class": "salesense",
+        "parentPath": ""
+    }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="battlesenseSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16a9aad25eb" ></w:Config>
+	<e:Image source="zhurong_jpg" left="0" top="0" locked="true"/>
+	<e:Image source="bat_down_png" left="0" bottom="0" alpha="1" locked="true"/>
+	<e:Image source="batle_down_1_png" left="0" bottom="0" locked="true"/>
+	<e:Button id="tc" label="Button" x="1867" y="0" width="50" skinName="tc1"/>
+	<e:Button id="E_1" label="Button" x="396" y="460" anchorOffsetX="0" width="200" anchorOffsetY="0" height="200" skinName="E"/>
+	<e:Button id="E_2" label="Button" x="860" y="400.5" anchorOffsetX="0" width="200" anchorOffsetY="0" height="200" skinName="E2"/>
+</e:Skin>

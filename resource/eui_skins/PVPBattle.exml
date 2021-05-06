@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PVPBattleSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16ada77ca39" ></w:Config>
+	<e:Image source="万圣_jpg" left="0" top="0" alpha="0.8"/>
+	<e:Image source="bg_srowll_png" x="582.08" y="24" rotation="34.31" anchorOffsetX="0" width="1526.12" anchorOffsetY="0" height="26.04"/>
+	<e:Rect id="hpplay" width="28" height="792" x="60" y="248" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xf90707"/>
+	<e:Rect id="hpemy" width="26" height="582" x="1829.61" y="24" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x003aff"/>
+	<e:Label id="lab_1" text="" x="21" y="196" anchorOffsetX="0" width="184" anchorOffsetY="0" height="52" size="45"/>
+	<e:Label id="lab_2" text="" x="1733" y="618" anchorOffsetX="0" width="184" anchorOffsetY="0" height="52" size="45"/>
+	<e:Button id="escape" label="Button" x="1376" y="905.71" width="184" height="86" skinName="bat_escape"/>
+	<e:Button id="over" label="Button" x="1612" y="905.71" width="184" height="86" skinName="bat_over"/>
+	<e:Rect width="176" height="74" x="1376" y="760" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x776f6f"/>
+	<e:Label id="cost" text="cost" x="1406" y="776" anchorOffsetX="0" width="124" anchorOffsetY="0" height="42" size="50"/>
+	<e:Image source="timg_jpg" x="1315.5" y="46" anchorOffsetX="0" width="457" anchorOffsetY="0" height="374"/>
+	<e:Image id="img_header" width="152" height="146" x="1508" y="123" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

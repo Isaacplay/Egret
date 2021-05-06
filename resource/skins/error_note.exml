@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="error_noteSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16ad869cec4" ></w:Config>
+	<e:Image source="子午台_jpg" left="0" top="0" locked="true"/>
+	<e:Group width="1622.48" height="118" x="153.52" y="92" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Button id="btn_return" label="" x="26" y="26" anchorOffsetX="0" width="84" anchorOffsetY="0" height="70">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="back_png" source.down="back_png" source.disabled="back_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="lab_title" text="错误" x="136" y="26" anchorOffsetX="0" width="196" anchorOffsetY="0" height="64" size="60"/>
+		<e:Label id="lab_userID" text="用户ID：" x="1130" y="26" anchorOffsetX="0" width="464" anchorOffsetY="0" height="70" size="50"/>
+	</e:Group>
+	<e:Group width="912.12" height="587.88" x="508.7" y="314.48" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Rect width="912" height="587" left="0" top="0" fillColor="0xffffff"/>
+		<e:Label id="lab_content" text="error" x="33.24" y="29.82" textColor="0xff0000" anchorOffsetX="0" width="849.76" anchorOffsetY="0" height="49.7"/>
+	</e:Group>
+	<e:Button id="btn_reconnect" label="重连" x="829.52" y="945.58" anchorOffsetX="0" width="257.97" anchorOffsetY="0" height="85.7"/>
+</e:Skin>

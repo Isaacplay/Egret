@@ -1,0 +1,56 @@
+{
+  "engineVersion": "5.2.19",
+  "compilerVersion": "5.2.19",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "eui": {
+    "exmlRoot": [
+      "resource/eui_skins",
+      "resource/skins",
+      "resource/skin_items"
+    ],
+    "themes": [
+      "resource/default.thm.json"
+    ],
+    "exmlPublishPolicy": "commonjs"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "matchvs",
+      "path": "./libs/matchvs"
+    },
+    {
+      "name": "socket"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "wxshare",
+      "path": "./libs/wxshare"
+    }
+  ],
+  "targets": {
+    "android": {
+      "appname": "noname",
+      "packagename": "com.companyname"
+    }
+  }
+}

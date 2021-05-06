@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="hero_show" width="367" height="394" xmlns:e="http://ns.egret.com/eui">
+	<e:Image width="365" height="339" x="2" y="0" source="{data.image}"/>
+	<e:Label text="拥有数量：" x="21" y="350" anchorOffsetX="0" width="176"/>
+	<e:Label text="{data.num}" x="183.5" y="350"/>
+</e:Skin>

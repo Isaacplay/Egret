@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="tc1" width="50" height="50" currentState="up" xmlns:e="http://ns.egret.com/eui" states="up,down" >
+	<e:Image source="tc_png" anchorOffsetX="0" left="0" top="0" width="100%" anchorOffsetY="0" height="100%" width.down= "90%" height.down="90%" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

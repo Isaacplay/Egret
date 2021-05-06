@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="btn" width="200" height="108" currentState="up" xmlns:e="http://ns.egret.com/eui" states="up,down" >
+	<e:Image source="btn_sc_png"  anchorOffsetX="0" width="100%" anchorOffsetY="0" height="108" width.down= "100%" height.down="90%" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

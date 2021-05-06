@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="homeSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16a4d52c311" ></w:Config>
+	<e:Image source="back_home_jpg" left="0" top="0" locked="true"/>
+	<e:Group id="Group_mbtn" width="800" height="108" anchorOffsetX="0" anchorOffsetY="0" bottom="0" right="0">
+		<e:Button id="btn_zd" label="Button" x="0" y="0" width="199" height="109" anchorOffsetY="0" anchorOffsetX="0" skinName="btnzd"/>
+		<e:Button id="btn_pz" label="Button" x="200" y="1" width="200" height="108" skinName="btnpz"/>
+		<e:Button id="btn_sc" label="Button" x="400" y="1" width="200" height="108" skinName="btn"/>
+		<e:Button id="btn_gy" label="Button" x="600" width="200" height="108" top="0" skinName="btngy"/>
+		<e:Group width="200" height="216" x="400" y="-216" anchorOffsetY="0">
+			<e:List id="lis_button" width="200" height="108" x="0" y="0" itemRendererSkinName="buttonlist"/>
+		</e:Group>
+	</e:Group>
+	<e:Button id="cha" label="Button" width="54" height="54" left="0" bottom="0" skinName="CHA"/>
+</e:Skin>

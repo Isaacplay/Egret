@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="battlechooseSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16ad4613785" ></w:Config>
+	<e:Image source="battle_choose_jpg" left="0" top="0" locked="true"/>
+	<e:Image source="yue1_png" x="1018" y="0" anchorOffsetX="0" width="1136" anchorOffsetY="0" height="1167" locked="true"/>
+	<e:Image source="guigu1_png" x="-256" y="0" locked="true"/>
+	<e:Button id="bt_pve" label="Button" x="660" y="695" anchorOffsetX="0" width="218" anchorOffsetY="0" height="346" skinName="pve" alpha="0.8"/>
+	<e:Button id="bt_pvp" label="Button" x="1048" y="695" anchorOffsetX="0" width="218" anchorOffsetY="0" height="346" skinName="pvp" alpha="0.8"/>
+	<e:Button id="tc" label="Button" width="50" right="0" top="0" skinName="tc1"/>
+</e:Skin>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="salesenseSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16b02b4b0bd" ></w:Config>
+	<e:Image source="夜市_jpg" left="0" top="0" locked="true"/>
+	<e:Rect width="1692" height="500" x="114" y="540" fillColor="0xf44f4b" alpha="0.87" locked="true"/>
+	<e:Scroller id="scr_hero" width="1620" height="446" x="148.5" y="566">
+		<e:List id="lis_hero" itemRendererSkinName="hero_show">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btn_tc" label="" x="0" y="50" anchorOffsetX="0" width="181" anchorOffsetY="0" height="144">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="back_png" source.down="back_png" source.disabled="back_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="lab_money" text="金币：" x="1370" y="30" anchorOffsetX="0" width="460" anchorOffsetY="0" height="88" size="60"/>
+</e:Skin>

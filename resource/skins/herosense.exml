@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="herosenseSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16a863a9501" ></w:Config>
+	<e:Image source="back_hero_jpg" left="0" top="0" locked="true"/>
+	<e:Image source="hero_back1_png" x="186" y="46" alpha="0.6" locked="true"/>
+	<e:Image source="hero_back2_png" x="186" y="570" alpha="0.6" locked="true"/>
+	<e:Image source="hero_back2 _png" x="186" y="540" alpha="0.6" locked="true"/>
+	<e:Image id="hero_1" width="365" height="339" x="1479" y="77.5" source="{data.image1}"/>
+	<e:Image id="hero_2" width="365" height="339" x="642" y="77.5"/>
+	<e:Image id="hero_3" width="365" height="339" x="1061" y="77.5"/>
+	<e:Image id="hero_4" width="365" height="339" x="228" y="77.5"/>
+	<e:Scroller id="scr_hero" width="1620" height="446" x="232" y="594" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="on" scrollPolicyV="off">
+		<e:List id="lis_hero" itemRendererSkinName="hero_show" height="484" x="-8" y="-23">
+			<e:layout>
+				<e:HorizontalLayout gap="10"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="tc" label="Button" x="1867" y="0" width="50" skinName="tc2"/>
+	<e:Button id="btn_sale" label="出售" x="36" y="685" anchorOffsetX="0" width="101" anchorOffsetY="0" height="264"/>
+</e:Skin>

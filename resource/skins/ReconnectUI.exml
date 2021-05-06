@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ReconnectUISkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16ade202fdb" ></w:Config>
+	<e:Image source="零陵界-夜_jpg" left="0" top="0"/>
+	<e:Button id="btn_return" label="" x="82" y="80" anchorOffsetX="0" width="97" anchorOffsetY="0" height="84">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="back_png" source.down="back_png" source.disabled="back_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="断线重连" x="179" y="94" anchorOffsetX="0" width="246" anchorOffsetY="0" height="70" size="60" locked="true"/>
+	<e:Rect width="1180" height="114" x="370" y="483" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x726767" alpha="0.8" locked="true"/>
+	<e:Label id="lab_note" text="重连中。。。。。" x="746" y="514" anchorOffsetX="0" width="620" anchorOffsetY="0" height="52" size="50"/>
+</e:Skin>

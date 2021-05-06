@@ -1,0 +1,697 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,loading_png,loading2_png,back_home_jpg,btn_gy_png,btn_pz_png,btn_sc_png,btn_zd_png,cha_png,1_png,2_png,3_png,4_png,5_png,about_back_jpg,1_jpg,2_jpg,3_jpg,4_jpg,tc_png,12_png,back_shop_jpg,btn_1_png,tc2_png,shop_title_png,cardback_png,gouma_png,zhende_png,lls_png,eqd_png,bb_png,shop_left_back_png,quanxuan_png,reset_png,toast-bg_png,chiyou_png,xiaohao_png,player_json,back_hero_jpg,hero_back1_png,hero_back2 _png,zhende2_png,bb2_png,eqd2_png,lls2_png,zhurong_jpg,bat_down_png,batle_down_1_png,E2_2_png,E1_1_png,E2_1_png,E1_2_png,E1_boss_png,E2_boss_png,E_back_jpg,E_down_png,eqd3_png,lls3_png,zhende3_png,bb3_png,hp1_png,hp2_png,bat_2_png,bat_1_png,bat_4_png,bat_3_png,card_json,boss_json,bbskill1_png,bbskill2_png,eqdskill1_png,eqdskill2_png,llsskill1_png,llsskill2_png,zhendeskill1_png,zhendeskill2_png,battle_choose_jpg,yue1_png,guigu1_png,pvp_png,pve_png,lobby_jpg,arrow_left_png,back_png,bg_srowll_png,贯月舟-夜_jpg,原野-夜_jpg,owner_png,turn_point_png,checked_png,nocheck_png,零陵界-夜_jpg,子午台_jpg,灵山神墟_jpg,万圣_jpg,checkbox1_select_down_png,checkbox1_select_up_png,checkbox1_unselect_png,checkbox1_select_disabled_png,timg_jpg,asd_png,未标题-1_png,魂体融合_jpg,back2_png,夜市_jpg,yz_png,yz2_png,yz3_png,yzskill2_png,yzskill1_png",
+			"name": "preload"
+		},
+		{
+			"keys": "loading_png,loading2_png",
+			"name": "loading"
+		},
+		{
+			"keys": "back_home_jpg,about_back_jpg,back_shop_jpg",
+			"name": "back"
+		},
+		{
+			"keys": "cha_png,btn_sc_png,btn_gy_png,btn_pz_png,btn_zd_png",
+			"name": "button"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "art/loading/loading.png",
+			"type": "image",
+			"name": "loading_png"
+		},
+		{
+			"url": "art/loading/loading2.png",
+			"type": "image",
+			"name": "loading2_png"
+		},
+		{
+			"url": "art/back/back_home.jpg",
+			"type": "image",
+			"name": "back_home_jpg"
+		},
+		{
+			"url": "art/button/btn_gy.png",
+			"type": "image",
+			"name": "btn_gy_png"
+		},
+		{
+			"url": "art/button/btn_pz.png",
+			"type": "image",
+			"name": "btn_pz_png"
+		},
+		{
+			"url": "art/button/btn_sc.png",
+			"type": "image",
+			"name": "btn_sc_png"
+		},
+		{
+			"url": "art/button/btn_zd.png",
+			"type": "image",
+			"name": "btn_zd_png"
+		},
+		{
+			"url": "art/button/cha.png",
+			"type": "image",
+			"name": "cha_png"
+		},
+		{
+			"url": "art/char/1.png",
+			"type": "image",
+			"name": "1_png"
+		},
+		{
+			"url": "art/char/2.png",
+			"type": "image",
+			"name": "2_png"
+		},
+		{
+			"url": "art/char/3.png",
+			"type": "image",
+			"name": "3_png"
+		},
+		{
+			"url": "art/char/4.png",
+			"type": "image",
+			"name": "4_png"
+		},
+		{
+			"url": "art/char/5.png",
+			"type": "image",
+			"name": "5_png"
+		},
+		{
+			"url": "art/back/about_back.jpg",
+			"type": "image",
+			"name": "about_back_jpg"
+		},
+		{
+			"url": "art/biaoqing/1.jpg",
+			"type": "image",
+			"name": "1_jpg"
+		},
+		{
+			"url": "art/biaoqing/2.jpg",
+			"type": "image",
+			"name": "2_jpg"
+		},
+		{
+			"url": "art/biaoqing/3.jpg",
+			"type": "image",
+			"name": "3_jpg"
+		},
+		{
+			"url": "art/biaoqing/4.jpg",
+			"type": "image",
+			"name": "4_jpg"
+		},
+		{
+			"url": "art/button/tc.png",
+			"type": "image",
+			"name": "tc_png"
+		},
+		{
+			"url": "art/img/1.png",
+			"type": "image",
+			"name": "12_png"
+		},
+		{
+			"url": "art/back/back_shop.jpg",
+			"type": "image",
+			"name": "back_shop_jpg"
+		},
+		{
+			"url": "art/button/btn_1.png",
+			"type": "image",
+			"name": "btn_1_png"
+		},
+		{
+			"url": "art/button/tc2.png",
+			"type": "image",
+			"name": "tc2_png"
+		},
+		{
+			"url": "art/back/shop_title.png",
+			"type": "image",
+			"name": "shop_title_png"
+		},
+		{
+			"url": "art/back/cardback.png",
+			"type": "image",
+			"name": "cardback_png"
+		},
+		{
+			"url": "art/button/gouma.png",
+			"type": "image",
+			"name": "gouma_png"
+		},
+		{
+			"url": "art/hero/zhende.png",
+			"type": "image",
+			"name": "zhende_png"
+		},
+		{
+			"url": "art/hero/lls.png",
+			"type": "image",
+			"name": "lls_png"
+		},
+		{
+			"url": "art/hero/eqd.png",
+			"type": "image",
+			"name": "eqd_png"
+		},
+		{
+			"url": "art/hero/bb.png",
+			"type": "image",
+			"name": "bb_png"
+		},
+		{
+			"url": "art/back/shop_left_back.png",
+			"type": "image",
+			"name": "shop_left_back_png"
+		},
+		{
+			"url": "art/button/quanxuan.png",
+			"type": "image",
+			"name": "quanxuan_png"
+		},
+		{
+			"url": "art/button/reset.png",
+			"type": "image",
+			"name": "reset_png"
+		},
+		{
+			"url": "art/back/toast-bg.png",
+			"type": "image",
+			"name": "toast-bg_png"
+		},
+		{
+			"url": "art/back/chiyou.png",
+			"type": "image",
+			"name": "chiyou_png"
+		},
+		{
+			"url": "art/back/xiaohao.png",
+			"type": "image",
+			"name": "xiaohao_png"
+		},
+		{
+			"url": "bit/player.json",
+			"type": "json",
+			"name": "player_json"
+		},
+		{
+			"name": "back_hero_jpg",
+			"type": "image",
+			"url": "art/back/back_hero.jpg"
+		},
+		{
+			"name": "hero_back1_png",
+			"type": "image",
+			"url": "art/back/hero_back1.png"
+		},
+		{
+			"name": "hero_back2 _png",
+			"type": "image",
+			"url": "art/back/hero_back2 .png"
+		},
+		{
+			"name": "zhende2_png",
+			"type": "image",
+			"url": "art/char/zhende.png"
+		},
+		{
+			"name": "bb2_png",
+			"type": "image",
+			"url": "art/char/bb.png"
+		},
+		{
+			"name": "eqd2_png",
+			"type": "image",
+			"url": "art/char/eqd.png"
+		},
+		{
+			"name": "lls2_png",
+			"type": "image",
+			"url": "art/char/lls.png"
+		},
+		{
+			"name": "zhurong_jpg",
+			"type": "image",
+			"url": "art/back/zhurong.jpg"
+		},
+		{
+			"name": "bat_down_png",
+			"type": "image",
+			"url": "art/back/bat_down.png"
+		},
+		{
+			"name": "batle_down_1_png",
+			"type": "image",
+			"url": "art/back/batle_down_1.png"
+		},
+		{
+			"name": "E2_2_png",
+			"type": "image",
+			"url": "art/button/E2_2.png"
+		},
+		{
+			"name": "E1_1_png",
+			"type": "image",
+			"url": "art/button/E1_1.png"
+		},
+		{
+			"name": "E2_1_png",
+			"type": "image",
+			"url": "art/button/E2_1.png"
+		},
+		{
+			"name": "E1_2_png",
+			"type": "image",
+			"url": "art/button/E1_2.png"
+		},
+		{
+			"name": "E1_boss_png",
+			"type": "image",
+			"url": "art/char/E1_boss.png"
+		},
+		{
+			"name": "E2_boss_png",
+			"type": "image",
+			"url": "art/char/E2_boss.png"
+		},
+		{
+			"name": "E_back_jpg",
+			"type": "image",
+			"url": "art/back/E_back.jpg"
+		},
+		{
+			"name": "E_down_png",
+			"type": "image",
+			"url": "art/back/E_down.png"
+		},
+		{
+			"name": "eqd3_png",
+			"type": "image",
+			"url": "art/bat/eqd.png"
+		},
+		{
+			"name": "lls3_png",
+			"type": "image",
+			"url": "art/bat/lls.png"
+		},
+		{
+			"name": "zhende3_png",
+			"type": "image",
+			"url": "art/bat/zhende.png"
+		},
+		{
+			"name": "bb3_png",
+			"type": "image",
+			"url": "art/bat/bb.png"
+		},
+		{
+			"name": "hp1_png",
+			"type": "image",
+			"url": "art/back/hp1.png"
+		},
+		{
+			"name": "hp2_png",
+			"type": "image",
+			"url": "art/back/hp2.png"
+		},
+		{
+			"name": "bat_2_png",
+			"type": "image",
+			"url": "art/button/bat_2.png"
+		},
+		{
+			"name": "bat_1_png",
+			"type": "image",
+			"url": "art/button/bat_1.png"
+		},
+		{
+			"name": "bat_4_png",
+			"type": "image",
+			"url": "art/back/bat_4.png"
+		},
+		{
+			"name": "bat_3_png",
+			"type": "image",
+			"url": "art/back/bat_3.png"
+		},
+		{
+			"name": "card_json",
+			"type": "json",
+			"url": "bit/card.json"
+		},
+		{
+			"name": "boss_json",
+			"type": "json",
+			"url": "bit/boss.json"
+		},
+		{
+			"name": "bbskill1_png",
+			"type": "image",
+			"url": "art/skill/bbskill1.png"
+		},
+		{
+			"name": "bbskill2_png",
+			"type": "image",
+			"url": "art/skill/bbskill2.png"
+		},
+		{
+			"name": "eqdskill1_png",
+			"type": "image",
+			"url": "art/skill/eqdskill1.png"
+		},
+		{
+			"name": "eqdskill2_png",
+			"type": "image",
+			"url": "art/skill/eqdskill2.png"
+		},
+		{
+			"name": "llsskill1_png",
+			"type": "image",
+			"url": "art/skill/llsskill1.png"
+		},
+		{
+			"name": "llsskill2_png",
+			"type": "image",
+			"url": "art/skill/llsskill2.png"
+		},
+		{
+			"name": "zhendeskill1_png",
+			"type": "image",
+			"url": "art/skill/zhendeskill1.png"
+		},
+		{
+			"name": "zhendeskill2_png",
+			"type": "image",
+			"url": "art/skill/zhendeskill2.png"
+		},
+		{
+			"name": "battle_choose_jpg",
+			"type": "image",
+			"url": "art/back/battle_choose.jpg"
+		},
+		{
+			"name": "yue1_png",
+			"type": "image",
+			"url": "art/char/yue1.png"
+		},
+		{
+			"name": "guigu1_png",
+			"type": "image",
+			"url": "art/char/guigu1.png"
+		},
+		{
+			"name": "pvp_png",
+			"type": "image",
+			"url": "art/button/pvp.png"
+		},
+		{
+			"name": "pve_png",
+			"type": "image",
+			"url": "art/button/pve.png"
+		},
+		{
+			"name": "lobby_jpg",
+			"type": "image",
+			"url": "art/back/lobby.jpg"
+		},
+		{
+			"name": "arrow_left_png",
+			"type": "image",
+			"url": "art/back/arrow_left.png"
+		},
+		{
+			"name": "back_png",
+			"type": "image",
+			"url": "art/back/back.png"
+		},
+		{
+			"name": "bg_srowll_png",
+			"type": "image",
+			"url": "art/back/bg_srowll.png"
+		},
+		{
+			"name": "贯月舟-夜_jpg",
+			"type": "image",
+			"url": "art/back/贯月舟-夜.jpg"
+		},
+		{
+			"name": "原野-夜_jpg",
+			"type": "image",
+			"url": "art/back/原野-夜.jpg"
+		},
+		{
+			"name": "owner_png",
+			"type": "image",
+			"url": "art/back/owner.png"
+		},
+		{
+			"name": "turn_point_png",
+			"type": "image",
+			"url": "art/back/turn_point.png"
+		},
+		{
+			"name": "checked_png",
+			"type": "image",
+			"url": "art/back/checked.png"
+		},
+		{
+			"name": "nocheck_png",
+			"type": "image",
+			"url": "art/back/nocheck.png"
+		},
+		{
+			"name": "零陵界-夜_jpg",
+			"type": "image",
+			"url": "art/back/零陵界-夜.jpg"
+		},
+		{
+			"name": "子午台_jpg",
+			"type": "image",
+			"url": "art/back/子午台.jpg"
+		},
+		{
+			"name": "灵山神墟_jpg",
+			"type": "image",
+			"url": "art/back/灵山神墟.jpg"
+		},
+		{
+			"name": "万圣_jpg",
+			"type": "image",
+			"url": "art/back/万圣.jpg"
+		},
+		{
+			"name": "checkbox1_select_down_png",
+			"type": "image",
+			"url": "assets/CheckBox/checkbox1_select_down.png"
+		},
+		{
+			"name": "checkbox1_select_up_png",
+			"type": "image",
+			"url": "assets/CheckBox/checkbox1_select_up.png"
+		},
+		{
+			"name": "checkbox1_unselect_png",
+			"type": "image",
+			"url": "assets/CheckBox/checkbox1_unselect.png"
+		},
+		{
+			"name": "checkbox1_select_disabled_png",
+			"type": "image",
+			"url": "assets/CheckBox/checkbox1_select_disabled.png"
+		},
+		{
+			"name": "timg_jpg",
+			"type": "image",
+			"url": "art/back/timg.jpg"
+		},
+		{
+			"name": "asd_png",
+			"type": "image",
+			"url": "art/button/asd.png"
+		},
+		{
+			"name": "未标题-1_png",
+			"type": "image",
+			"url": "art/button/未标题-1.png"
+		},
+		{
+			"name": "魂体融合_jpg",
+			"type": "image",
+			"url": "art/back/魂体融合.jpg"
+		},
+		{
+			"name": "back2_png",
+			"type": "image",
+			"url": "art/img/back.png"
+		},
+		{
+			"name": "夜市_jpg",
+			"type": "image",
+			"url": "art/back/夜市.jpg"
+		},
+		{
+			"name": "yz_png",
+			"type": "image",
+			"url": "art/hero/yz.png"
+		},
+		{
+			"name": "yz2_png",
+			"type": "image",
+			"url": "art/bat/yz.png"
+		},
+		{
+			"name": "yz3_png",
+			"type": "image",
+			"url": "art/char/yz.png"
+		},
+		{
+			"name": "yzskill2_png",
+			"type": "image",
+			"url": "art/skill/yzskill2.png"
+		},
+		{
+			"name": "yzskill1_png",
+			"type": "image",
+			"url": "art/skill/yzskill1.png"
+		}
+	]
+}

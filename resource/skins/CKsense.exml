@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CKsenseSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16ae97d7218" ></w:Config>
+	<e:Image source="魂体融合_jpg" left="0" top="0"/>
+	<e:Button id="btn_banck" label="" x="44" y="52" anchorOffsetY="0" height="110" anchorOffsetX="0" width="122">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="back_png" source.down="back_png" source.disabled="back_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="抽卡" x="166" y="80" anchorOffsetX="0" width="244" anchorOffsetY="0" height="66" size="60"/>
+	<e:Label id="lab_money" text="你的金币：" x="1496" y="24" anchorOffsetX="0" width="362" anchorOffsetY="0" height="50" size="45"/>
+	<e:Button id="btn_start" label="抽取4次" x="828" y="856" anchorOffsetX="0" width="261" anchorOffsetY="0" height="140" alpha="0.8"/>
+	<e:Label text="消耗5000" x="888.5" y="1022" anchorOffsetX="0" width="140" anchorOffsetY="0" height="34"/>
+</e:Skin>

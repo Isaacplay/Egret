@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="bat_matchSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16ad570a4f5" ></w:Config>
+	<e:Image source="原野-夜_jpg" left="0" top="0" alpha="0.8" locked="true"/>
+	<e:Group width="1640" height="112" x="177" y="64" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Button id="btn_return" label="" x="0" y="17" anchorOffsetX="0" width="95" anchorOffsetY="0" height="78">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="back_png" source.down="back_png" source.disabled="back_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="lab_lobby" text="等待玩家加入" x="95" y="33" anchorOffsetX="0" width="346" anchorOffsetY="0" height="62" size="50"/>
+		<e:Label id="lab_userID" text="用户ID：" x="1231" y="25" anchorOffsetX="0" width="374" anchorOffsetY="0" height="62" size="50"/>
+		<e:Label id="lab_matchmode" text="" x="460" y="25" anchorOffsetX="0" width="580" anchorOffsetY="0" height="62" size="50"/>
+	</e:Group>
+	<e:Label id="lab_roomID" text="房间号：" x="177" y="207" anchorOffsetX="0" width="346" anchorOffsetY="0" height="44" size="40"/>
+	<e:Rect id="rect_player1" width="400" height="400" x="372" y="387" anchorOffsetX="0" anchorOffsetY="0" ellipseWidth="400" ellipseHeight="400" fillColor="0x6a82c9"/>
+	<e:Rect id="rect_player2" width="400" height="400" x="1088" y="387" anchorOffsetX="0" anchorOffsetY="0" ellipseWidth="400" ellipseHeight="400" fillColor="0x6A82C9"/>
+	<e:Image id="img_owner" source="owner_png" x="479" y="747" anchorOffsetX="0" width="186" anchorOffsetY="0" height="80"/>
+	<e:Button id="btn_kick2" label="踢掉" x="1195" y="747" width="186" height="80"/>
+	<e:Button id="btn_start" label="开始游戏" x="772.5" y="934" anchorOffsetX="0" width="309" anchorOffsetY="0" height="128" enabled="true"/>
+	<e:CheckBox id="check_closeRoom" label="允许加入" x="818.5" y="827" anchorOffsetX="0" width="263" anchorOffsetY="0" height="81" enabled="true"/>
+	<e:Label id="lab_player1" text="1" x="505" y="492" anchorOffsetX="0" width="132" anchorOffsetY="0" height="190" size="200"/>
+	<e:Label id="lab_player2" text="2" x="1222" y="492" anchorOffsetX="0" width="132" anchorOffsetY="0" height="190" size="200"/>
+	<e:Label id="lab_userID1" text="待加入" x="523" y="827" anchorOffsetX="0" width="138" anchorOffsetY="0" height="44" size="40"/>
+	<e:Label id="lab_userID2" text="待加入" x="1222" y="827" anchorOffsetX="0" width="138" anchorOffsetY="0" height="44" size="40"/>
+</e:Skin>

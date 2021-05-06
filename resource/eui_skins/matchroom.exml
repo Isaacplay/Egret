@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="matchroomSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16ad96097f1" ></w:Config>
+	<e:Image source="灵山神墟_jpg" left="0" top="0" alpha="0.8" locked="true"/>
+	<e:Group width="1704" height="200" x="169.41" y="62" anchorOffsetX="6.41" anchorOffsetY="-12">
+		<e:Button id="btn_return" label="" x="51" y="39" anchorOffsetX="0" width="115" anchorOffsetY="0" height="122">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="back_png" source.down="back_png" source.disabled="back_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="lab_title" text="房间列表" x="166" y="53" anchorOffsetX="0" width="436" anchorOffsetY="0" height="108" size="90"/>
+		<e:Rect width="164" height="164" x="1103" y="18" anchorOffsetX="0" anchorOffsetY="0" strokeColor="0x0065ff" strokeWeight="3" fillAlpha="0"/>
+		<e:Label id="lab_userID" text="用户ID：" x="1267" y="75" anchorOffsetX="0" width="432" anchorOffsetY="0" height="64" size="60"/>
+		<e:Image id="img_header" width="164" height="164" x="1103" y="18"/>
+	</e:Group>
+	<e:Label text="请输入房间号" x="382" y="346" anchorOffsetX="0" width="282" anchorOffsetY="0" height="54" size="45"/>
+	<e:Group width="1358" height="144" x="370" y="416" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Rect id="rect_roomID" width="1358" height="144" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xfcfcfc" scaleX="1" scaleY="1" locked="true"/>
+		<e:EditableText id="edt_roomID" width="1332" height="114" text="" x="16" y="16" anchorOffsetX="0" anchorOffsetY="0" textColor="0x000000" size="90"/>
+	</e:Group>
+	<e:Button id="btn_start" label="进入房间" x="766.5" y="874" anchorOffsetX="0" width="387" anchorOffsetY="0" height="150"/>
+	<e:Label id="lab_note" text="提醒：" x="376" y="612" anchorOffsetX="0" width="624" anchorOffsetY="0" height="52" size="45" textColor="0xff0000"/>
+</e:Skin>
